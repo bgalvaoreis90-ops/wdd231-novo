@@ -1,0 +1,60 @@
+<<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD231 course home page by Bruno Reis">
+    <meta name="author" content="Bruno Reis">
+    <title>Home | Bruno Reis | WDD231</title>
+    <link rel="stylesheet" href="styles/small.css">   
+    <script src="scripts/courses.js" defer></script>
+    <script src="scripts/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.svg" alt="Site logo" width="50" height="50">
+        <span>Bruno Reis</span>
+        <button id="menu-button" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navigation">☰</button>
+    </header>
+
+    <nav id="navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="../chamber/index.html">Chamber Project</a>
+        <a href="../final/index.html">Final Project</a>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+
+        <section>
+            <h2>About Me</h2>
+            <p>My name is Bruno Reis. I am studying Software Development at BYU-Idaho.</p>
+        </section>
+
+        <section>
+            <h2>Student Photo</h2>
+            <img src="images/profile.webp" alt="Bruno Reis" width="300" height="300">
+        </section>
+
+        <section>
+            <h2>Web and Computer Programming Certificate</h2>
+            <div id="course-filters">
+                <button type="button" id="all">All Courses</button>
+                <button type="button" id="wdd">WDD Courses</button>
+                <button type="button" id="cse">CSE Courses</button>
+            </div>
+            <div id="course-list"></div>
+            <p>Total Credits: <span id="total-credits">0</span></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/bgalvaoreis90-ops">GitHub</a>
+            <a href="https://www.linkedin.com/">LinkedIn</a>
+        </div>
+        <p>&copy; <span id="anoAtual"></span> Bruno Reis | São Paulo, Brazil</p>
+        <p id="ultimaModificacao"></p>
+    </footer>
+</body>
+</html>

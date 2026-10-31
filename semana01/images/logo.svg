@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" rx="20" fill="#173b78"/>
+  <circle cx="50" cy="50" r="35" fill="#ffffff"/>
+  <text x="50" y="62" text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="34" font-weight="bold"
+        fill="#173b78">BR</text>
+</svg>
